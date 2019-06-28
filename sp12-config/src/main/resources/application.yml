@@ -6,12 +6,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/CLGLike/sp_repo
+          uri: https://github.com/CLGLike/sp_repo/tree/master/sp-config
           searchPaths: config
           #username: your-username
           #password: your-password
     
-server: 
+server:
   port: 6001
     
 eureka:
